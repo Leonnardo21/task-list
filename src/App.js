@@ -5,6 +5,7 @@ import { Text, View, FlatList, Alert, TouchableWithoutFeedback, Keyboard } from 
 import Header from '../src/components/Header';
 import TaskItem from '../src/components/TaskItem';
 import AddTask from '../src/components/AddTask';
+import Sandbox from '../src/components/SandBox';
 import styles from './style';
 
 export default function App() {
@@ -37,6 +38,7 @@ export default function App() {
   }
 
   return (
+    //<Sandbox />
     <TouchableWithoutFeedback onPress={() => {
       Keyboard.dismiss();
       console.log('Dismissed keyboard');

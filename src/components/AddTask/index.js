@@ -20,7 +20,8 @@ export default function AddTask({ handleSubmit }) {
         style={styles.button}
         onPress={() => handleSubmit(text)}
         title='Adicionar Tarefa'
-        color='#cf000f' />
+        color='#cf000f'
+      />
     </View>
   );
 };

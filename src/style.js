@@ -7,8 +7,11 @@ export default StyleSheet.create({
   },
   content: {
     padding: 40,
+    backgroundColor: '#f1f1f1',
+    flex: 1
   },
   list: {
+    flex: 1,
     marginTop: 20,
   }
 });

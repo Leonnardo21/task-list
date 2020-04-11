@@ -8,8 +8,5 @@ export default StyleSheet.create({
     borderWidth: 1,
     borderStyle: 'dashed',
     borderRadius: 10
-  },
-  text: {
-
   }
 });

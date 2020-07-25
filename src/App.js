@@ -5,16 +5,11 @@ import { Text, View, FlatList, Alert, TouchableWithoutFeedback, Keyboard } from 
 import Header from '../src/components/Header';
 import TaskItem from '../src/components/TaskItem';
 import AddTask from '../src/components/AddTask';
-import Sandbox from '../src/components/SandBox';
 import styles from './style';
 
 export default function App() {
 
-  const [tasks, setTasks] = useState([
-    { text: "Buy Coffe", key: '1' },
-    { text: "Study React", key: '2' },
-    { text: "Play CS:GO", key: '3' }
-  ]);
+  const [tasks, setTasks] = useState([]);
 
   const handlePress = (key) => {
     setTasks((prevTasks) => {

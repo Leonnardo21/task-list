@@ -7,6 +7,10 @@ export default StyleSheet.create({
     borderColor: '#bbb',
     borderWidth: 1,
     borderStyle: 'dashed',
-    borderRadius: 10
+    borderRadius: 10,
+    flexDirection: 'row'
+  },
+  itemText: {
+    marginLeft: 10,
   }
 });
